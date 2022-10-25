@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://images.unsplash.com/photo-1582634424802-b4a94fcfbce6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG9zaG9wfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main{
+     width:  100%px;
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMlduEgwA4GrezKCQOxLEVGDdpwcbfR-HnSA&usqp=CAU');
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: 100px 200px 200px 100px;
+     grid-gap: 50px;
+}
+nav{
+    border-radius: 10px;
+    background-image: url('https://file.cbbackgroundhd.com/uploads/preview/indoor-studio-photo-hd-background-download-free-11649737503gg91z2epor.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    grid-column: 1 / -1;
+    color: chartreuse;
+}
+aside{
+    border-radius: 10px;
+    background-image: url('https://file.cbbackgroundhd.com/uploads/preview/indoor-studio-photo-hd-background-download-free-11649737503gg91z2epor.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    grid-row: 2 / span 2;
+    color: red;
+}
+.box1{
+    border-radius: 10px;
+    background-image: url('https://file.cbbackgroundhd.com/uploads/preview/indoor-studio-photo-hd-background-download-free-11649737503gg91z2epor.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: blueviolet;
+}
+.box2{
+    border-radius: 10px;
+    background-image: url('https://file.cbbackgroundhd.com/uploads/preview/indoor-studio-photo-hd-background-download-free-11649737503gg91z2epor.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: orchid;
+}
+.box3{
+    border-radius: 10px;
+    background-image: url('https://file.cbbackgroundhd.com/uploads/preview/indoor-studio-photo-hd-background-download-free-11649737503gg91z2epor.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: yellowgreen;
+}
+.main-content{
+    border-radius: 10px;
+    background-image: url('https://file.cbbackgroundhd.com/uploads/preview/indoor-studio-photo-hd-background-download-free-11649737503gg91z2epor.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    grid-column: 2 / -1 ;
+    color: palevioletred;
+}
+footer{
+    border-radius: 10px;
+    background-image: url('https://file.cbbackgroundhd.com/uploads/preview/indoor-studio-photo-hd-background-download-free-11649737503gg91z2epor.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    grid-column:  1/ -1;
+    color: aqua;
+}
+    </style>
+    <title>Website_Layout</title>
+</head>
+<body>
+    <main>
+        <nav>navbar</nav>
+        <aside>Out Side Section</aside>
+        <article class="box1">box1</article>
+        <article class="box2">box2</article>
+        <article class="box3">box3</article>
+        <section class="main-content">main content part</section>
+        <footer>footer</footer>
+    </main>
+</body>
+</html>
